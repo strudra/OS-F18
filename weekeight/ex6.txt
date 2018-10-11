@@ -1,0 +1,14 @@
+TASK:
+machine has 16-bit virtual addresses. Pages are 8 KB. How many entries are needed for a single-level linear page table? Explain your computations.
+
+SOLUTION:
+* S-L LP (single level linear paging)
+* one entry in single page table/virtual page
+* 2 byte virtual addr, 2^3*1024 bytes for all pages
+* 2^16 addr bytes
+* -------------- (division)
+* 2^13 bytes/page
+* =============== (equal)
+* 2^3 entries
+
+ANSWER: 2^3

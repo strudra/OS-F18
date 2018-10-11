@@ -1,0 +1,15 @@
+TASK: difference between a physical and a virtual address
+
+FACTS USED: 
+* RAM visualised as sequence of bytes
+* each byte has physical address
+* CPU uses this physical address when reading/writing to RAM
+
+SOME KEY DIFFERENCES:
+* virtual memory is frequently used to allow each process to run in its own virtual address space (VAS)
+* processes can benefit greatly from VAS:
+	* gives the programmer an illusion of having 'infinite' memory
+	* isolation of processes
+* virtual memory is a mapping to the actual physical address
+* virtual memory larger than physical
+* virtual memory stored in HD, while physical memory is RAM
