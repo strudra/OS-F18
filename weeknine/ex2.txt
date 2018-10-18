@@ -1,0 +1,9 @@
+- when max sequence == 100,
+max number of misses = 100.
+
+- if sequence like s(n) = s(n-1), and s(n%(n+1)) = 1; s(1) = 1
+# frames = 10, n < 11 -> #misses = n
+# frames = 10, n >= 11, always miss
+
+- sequence like s(1) = 1, s(2) = 1, s(3) = 1, s(n) = s(n-3) + 1
+# miss = n  
