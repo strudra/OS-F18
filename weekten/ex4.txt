@@ -1,0 +1,8 @@
+file1
+./OS-F18/weekten/link
+./OS-F18/weekten/tmp/file1
+./OS-F18/weekten/tmp/file2
+file2
+./OS-F18/weekten/link
+./OS-F18/weekten/tmp/file1
+./OS-F18/weekten/tmp/file2

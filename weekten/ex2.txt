@@ -1,0 +1,8 @@
+root@ubuntu-s-1vcpu-1gb-fra1-01:~/OS-F18/weekten# link ../weekone/file.txt _ex2.txt
+root@ubuntu-s-1vcpu-1gb-fra1-01:~/OS-F18/weekten# ls -i _ex2.txt 
+267807 _ex2.txt
+root@ubuntu-s-1vcpu-1gb-fra1-01:~/OS-F18/weekten# find -inum 267807
+./_ex2.txt
+root@ubuntu-s-1vcpu-1gb-fra1-01:~/OS-F18/weekten# find -inum 267807 -exec rm {} \;
+root@ubuntu-s-1vcpu-1gb-fra1-01:~/OS-F18/weekten# ls -i _ex2.txt 
+ls: cannot access '_ex2.txt': No such file or directory
